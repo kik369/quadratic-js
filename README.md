@@ -8,5 +8,5 @@ A quadratic equation solver implemented in JavaScript
 - [x] shows real and imaginary components for complex solutions
 - [ ] plot the parabola
 
-
+### Screenshot
 ![Screenshot](https://i.imgur.com/orantdr.png)
