@@ -1,6 +1,8 @@
 # Quadratic Equation Solver
 A quadratic equation solver implemented in JavaScript
 
+[Imgur](https://i.imgur.com/pLbqqxS.png)
+
 ### Work in progress
 - [x] shows the discriminant
 - [x] shows how many solutions
