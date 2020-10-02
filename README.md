@@ -8,6 +8,7 @@ A quadratic equation solver implemented in JavaScript
 - [x] shows real and imaginary components for complex solutions
 - [ ] plot the parabola
 - [ ] add more information about quadratic equations
+- [ ] add support for decimals
 
 ### Screenshot
 ![Screenshot](https://i.imgur.com/orantdr.png)
