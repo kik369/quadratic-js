@@ -11,4 +11,4 @@ A quadratic equation solver implemented in JavaScript
 - [ ] add support for decimals
 
 ### Screenshot
-![Screenshot](https://i.imgur.com/orantdr.png)
+![Screenshot](https://i.imgur.com/Ldc8gpE.png)
