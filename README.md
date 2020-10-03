@@ -14,4 +14,4 @@ A quadratic equation solver implemented in JavaScript
 
 ### Screenshot
 
-![Screenshot](https://i.imgur.com/Ldc8gpE.png)
+![Screenshot](https://ik.imagekit.io/kris/Screenshot_2020-10-03_114352_UK3dY4Daftf.png)
