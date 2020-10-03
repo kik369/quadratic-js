@@ -1,7 +1,9 @@
 # Quadratic Equation Solver
+
 A quadratic equation solver implemented in JavaScript
 
 ### Work in progress
+
 - [x] shows the discriminant
 - [x] shows how many solutions
 - [x] shows x1 and x2 (or just x, if one solution)
@@ -11,4 +13,5 @@ A quadratic equation solver implemented in JavaScript
 - [ ] add support for decimals
 
 ### Screenshot
+
 ![Screenshot](https://i.imgur.com/Ldc8gpE.png)
