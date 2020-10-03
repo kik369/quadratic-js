@@ -10,7 +10,7 @@ A quadratic equation solver implemented in JavaScript
 - [x] shows real and imaginary components for complex solutions
 - [x] plot the parabola
 - [ ] add more information about quadratic equations
-- [ ] add support for decimals
+- [x] add support for decimals
 
 ### Screenshot
 

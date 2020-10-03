@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Quadratic Equation Solver</title>
   </head>
@@ -18,26 +23,57 @@
   <body>
     <div class="container">
       <h3>Quadratic Equation Solver</h3>
-      <p>
-        The form of a quadratic equation is
-        <strong>ax<sup>2</sup> + bx + c = 0</strong>
-      </p>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">info_outline</i>The form of a quadratic
+            equation is&nbsp;<strong>ax<sup>2</sup> + bx + c = 0</strong>
+          </div>
+          <div class="collapsible-body">
+            Quadratic equation on
+            <a
+              href="https://en.wikipedia.org/wiki/Quadratic_equation"
+              target="_blank"
+              >Wikipedia</a
+            >
+          </div>
+        </li>
+      </ul>
       <div class="row">
         <div class="col s3">
           <p>
             Enter <strong>a</strong>, <strong>b</strong> and <strong>c</strong>.
+            Values can be positive, negative and floats.
           </p>
           <form>
             <div class="input-field">
-              <input id="a" type="number" />
+              <input
+                id="a"
+                type="number"
+                value="3"
+                step="any"
+                class="validate"
+              />
               <label for="a">a</label>
             </div>
             <div class="input-field">
-              <input id="b" type="number" />
+              <input
+                id="b"
+                type="number"
+                value="-6"
+                step="any"
+                class="validate"
+              />
               <label for="b">b</label>
             </div>
             <div class="input-field">
-              <input id="c" type="number" />
+              <input
+                id="c"
+                type="number"
+                value="1.9"
+                step="any"
+                class="validate"
+              />
               <label for="c">c</label>
             </div>
             <button
@@ -75,5 +111,10 @@
     </div>
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".collapsible").collapsible();
+      });
+    </script>
   </body>
 </html>
